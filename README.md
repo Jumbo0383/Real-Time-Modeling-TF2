@@ -41,7 +41,7 @@ sudo apt-get update && sudo apt-get upgrade
 
 > $ sudo pip3 install h5py==2.9.0
 > $ pip3 install -U --user six wheel mock
-> $ wget "https://raw.githubusercontent.com/PINTO0309/Tensorflow-bin/master/tensorflow-1.15.0-cp37-cp37m-linux_armv7l_download.sh"
+> $ wget "https://raw.githubusercontent.com/PINTO0309/Tensorflow-bin/master/tensorflow-1.15.0-cp37-cp37m-linux_armv7l_download.sh" <br>
 permission deniedになると思うので、(ls -lで権限を確認)
 > chmod 755 ./tensorflow-1.15.0-cp37-cp37m-linux_armv7l_download.sh
 で変更する権限を与える。 <br>
