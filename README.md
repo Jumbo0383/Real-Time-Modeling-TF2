@@ -36,11 +36,12 @@ Pythonのビルドとインストール <br>
 > $ apt-get install python3-protobuf python3-termcolor python3-yaml python3-pydot python3-pyasn1 python3-pyasn1-modules python3-rsa python3-markdown python3-cachetools python3-future python3-dill python3-tqdm python3-pil python3-pip python3-wheel python3-setuptools python3-matplotlib python3-h5py python3-scipy python3-grpcio python3-requests-oauthlib python3-werkzeug
 
 管理者権限で etc/apt/sources.list のコメントアウトを外し，この変更を反映 <br>
-> $ sudo vi /etc/apt/sources.list
-sudo apt-get update && sudo apt-get upgrade
+> $ sudo vi /etc/apt/sources.list <br>
+> $ sudo apt-get update && sudo apt-get upgrade <br>
 
-> $ sudo pip3 install h5py==2.9.0
-> $ pip3 install -U --user six wheel mock
+必要なパッケージ一式のダウンロード <br>
+> $ sudo pip3 install h5py==2.9.0 <br>
+> $ pip3 install -U --user six wheel mock <br>
 > $ wget "https://raw.githubusercontent.com/PINTO0309/Tensorflow-bin/master/tensorflow-1.15.0-cp37-cp37m-linux_armv7l_download.sh" <br>
 permission deniedになると思うので、(ls -lで権限を確認)
 > chmod 755 ./tensorflow-1.15.0-cp37-cp37m-linux_armv7l_download.sh
