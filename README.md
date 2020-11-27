@@ -43,8 +43,9 @@ Pythonのビルドとインストール <br>
 > $ sudo pip3 install h5py==2.9.0 <br>
 > $ pip3 install -U --user six wheel mock <br>
 > $ wget "https://raw.githubusercontent.com/PINTO0309/Tensorflow-bin/master/tensorflow-1.15.0-cp37-cp37m-linux_armv7l_download.sh" <br>
+
 permission deniedになると思うので、(ls -lで権限を確認)
-> chmod 755 ./tensorflow-1.15.0-cp37-cp37m-linux_armv7l_download.sh
+> chmod 755 ./tensorflow-1.15.0-cp37-cp37m-linux_armv7l_download.sh <br>
 で変更する権限を与える。 <br>
-> $ ./tensorflow-1.15.0-cp37-cp37m-linux_armv7l_download.sh
+> $ ./tensorflow-1.15.0-cp37-cp37m-linux_armv7l_download.sh <br>
 > $ sudo pip3 install tensorflow-1.15.0-cp37-cp37m-linux_armv7l.whl
