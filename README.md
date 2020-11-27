@@ -1,6 +1,6 @@
 # Real-Time-Modeling-TF2
 
-リアルタイムモデリングを Tensorflow 2.3とRaspberry Pi 4で行う．
+リアルタイムモデリングを Tensorflow 2.3とRaspberry Pi 4で行う(予定)．
 
 ## Raspberry Pi 4セッティング
 RAM: 4GB <br>
