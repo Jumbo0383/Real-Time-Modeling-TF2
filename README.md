@@ -1,6 +1,8 @@
 # Real-Time-Modeling-TF2
 
-リアルタイムモデリングを Tensorflow 2.3とRaspberry Pi 4で行う(予定)．
+リアルタイムモデリングを Tensorflow 2.3とRaspberry Pi 4で行う(予定)．<br>
+TF2ではなぜかkerasのpredict(x, batch_size=1)よりpredict_in_batch()の方が数段早いです．<br>
+TF1ではここまでの差はないはずです．
 
 ## Raspberry Pi 4セッティング
 RAM: 4GB <br>
