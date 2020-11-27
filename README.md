@@ -42,7 +42,10 @@ Pythonのビルドとインストール <br>
 必要なパッケージ一式のダウンロード <br>
 > $ sudo pip3 install h5py==2.9.0 <br>
 > $ pip3 install -U --user six wheel mock <br>
-> $ wget "https://raw.githubusercontent.com/PINTO0309/Tensorflow-bin/master/tensorflow-1.15.0-cp37-cp37m-linux_armv7l_download.sh" <br>
+>  wget "https://raw.githubusercontent.com/PINTO0309/Tensorflow-bin/master/tensorflow-2.3.1-cp37-none-linux_armv7l_download.sh" <br>
+$ ./tensorflow-2.3.1-cp37-none-linux_armv7l_download.sh
+
+このプラットフォームとは合わないみたいなエラーがでた場合はcp37をcp38などに変更するか，arm7vをaaech64に変更するなどしてください.
 
 permission deniedになると思うので、(ls -lで権限を確認)
 > chmod 755 ./tensorflow-1.15.0-cp37-cp37m-linux_armv7l_download.sh <br>
