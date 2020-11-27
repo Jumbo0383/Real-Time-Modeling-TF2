@@ -20,7 +20,7 @@ $ sudo apt install build-essential libbz2-dev libdb-dev \
 > https://pythonlinks.python.jp/ja/index.html <br>
 
 ダウンロードしたファイルを以下のコマンドで解凍 <br>
-> $ tar xJf Python-3.x.y.tar.xz
+> $ tar xJf Python-3.8.6.tar.xz
 
 Pythonのビルドとインストール <br>
 > $ cd Python-3.8.6
@@ -46,6 +46,7 @@ Pythonのビルドとインストール <br>
 
 permission deniedになると思うので、(ls -lで権限を確認)
 > chmod 755 ./tensorflow-1.15.0-cp37-cp37m-linux_armv7l_download.sh <br>
+
 で変更する権限を与える。 <br>
 > $ ./tensorflow-1.15.0-cp37-cp37m-linux_armv7l_download.sh <br>
 > $ sudo pip3 install tensorflow-1.15.0-cp37-cp37m-linux_armv7l.whl
